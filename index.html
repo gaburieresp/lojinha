@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu carrinho</title>
+       
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+       
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="js/funcoes.js"></script>
+    </head>
+
+    <body>
+    
+        <div class="container">
+            <nav class="navbar bg-body-tertiary  fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/Logo.png" alt="Logo" class="d-inline-block align-text-top">
+              </a>
+            </div>
+             </nav>
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h3 style="color: #0e68ee;">Meu carrinho</h3>
+                <br>
+
+        <table class="table table-hover">
+                <thead>
+                 <tr>
+                <th scope="col">Imagem</th>
+                <th scope="col">Produto</th>
+                <th scope="col">Preço Unitário</th>
+                <th scope="col">Qtd</th>
+                <th scope="col">Total</th>
+                </tr>
+                </thead>
+            <tbody>
+
+                 <tr>
+                <th scope="row"> <img src="img/produto_1.jpg" alt="Produto 1" width="150" height="150"></th>
+                <td>
+                    <div><span class="destaque-produto">Apple iPhone 14 Pro Max (256 GB)</span></div><br>
+                    <div><span class="destaque-produto">Sistema Operacional:</span> iOS</div>
+                    <div><span class="destaque-produto">Tecnologia:</span> 5G</div>
+                    <div><span class="destaque-produto">Cor:</span> Preto Espacial</div>
+                    <div><span class="destaque-produto">Código:</span> 544883750</div>
+                </td>
+                <td id="valor_1">R$ 9.000</td>
+                <td>
+                    <button type="button" class="btn btn-primary btn-sm" onclick="alterarQtd(1, '-')"><i class="bi bi-dash"></i></button> 
+                    <span id="qtd_1">1</span> 
+                    <button type="button" class="btn btn-primary btn-sm" onclick="alterarQtd(1, '+')"><i class="bi bi-plus"></i></button></div>
+                    </td>
+                <td id="total_1">R$ 9.000</td>
+                </tr>
+
+                <tr>
+                <th scope="row"> <img src="img/produto_2.webp" alt="Produto 2" width="150" height="150"></th>
+                <td>
+                    <div><span class="destaque-produto">Notebook Gamer Acer Nitro 5 Intel Core i5 8GB</span></div><br>
+                    <div><span class="destaque-produto">Sistema Operacional:</span> Windows 11</div>
+                    <div><span class="destaque-produto">Especificações:</span> 1TB HD 256GB SSD Nvidia GTX 1650 4GB</div>
+                    <div><span class="destaque-produto">Cor:</span> Preto e vermelho</div>
+                    <div><span class="destaque-produto">Código:</span> 234883900</div>
+                </td>
+                <td id="valor_2">R$ 5.000</td>
+                <td>
+                    <button type="button" class="btn btn-primary btn-sm" onclick="alterarQtd(2, '-')"><i class="bi bi-dash"></i></button> 
+                    <span id="qtd_2">1</span> 
+                    <button type="button" class="btn btn-primary btn-sm" onclick="alterarQtd(2, '+')"><i class="bi bi-plus"></i></button></div>
+                    </td>
+                <td id="total_2">R$ 5.000</td>
+                </tr>
+
+                <tr>
+                <th scope="row"> <img src="img/produto_3.webp" alt="Produto 3" width="150" height="150"></th>
+                <td><div><span class="destaque-produto">Smart TV 60” Crystal 4K Samsung 60AU8000 Wi-Fi</span></div><br>
+                    <div><span class="destaque-produto">Polegadas:</span> 60"</div>
+                    <div><span class="destaque-produto">Especificações:</span> Bluetooth HDR Alexa Built in 3 HDMI 2 USB</div>
+                    <div><span class="destaque-produto">Cor:</span> Preto</div>
+                    <div><span class="destaque-produto">Código:</span> 193442000</div>
+                </td>
+                <td id="valor_3">R$ 4.000</td>
+                <td>
+                <button type="button" class="btn btn-primary btn-sm" onclick="alterarQtd(3, '-')"><i class="bi bi-dash"></i></button> 
+                <span id="qtd_3">1</span> 
+                <button type="button" class="btn btn-primary btn-sm" onclick="alterarQtd(3, '+')"><i class="bi bi-plus"></i></button></div>
+                </td>
+                <td id="total_3" >R$ 4.000</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <br>
+
+            <div>
+             <footer>
+                 <span> <h6><strong>Subtotal:</strong> <span id="subtotal"> R$ 18.000</span></h6></span><br>
+
+                 <span><button type="button" class="btn btn-success" style="--bs-btn-padding-y: 8px; --bs-btn-padding-x: 32px; --bs-btn-font-size: 16px;">Finalizar pedido</button></span>
+             </footer>
+             <br>
+          </div>
+    </div>
+    </body>
+</html>
