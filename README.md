@@ -3,7 +3,7 @@ Lojinha - Projeto Final de Práticas de Programação
 Descrição:
 Bem-vindo ao Lojinha, meu projeto final da disciplina de Práticas de Programação do I período do curso de
 Análise e Desenvolvimento de Sistemas! Aqui, tive a empolgante oportunidade de aplicar todos os conceitos que adquiri 
-ao longo do curso, abrangendo as tecnologias essenciais como HTML, CSS, JavaScript e Bootstrap.
+ao longo da disciplina, abrangendo as tecnologias essenciais como HTML, CSS, JavaScript e Bootstrap.
 Além disso, aprimorei meu domínio em lógica de programação, habilidade fundamental para qualquer desenvolvedor.
 
 Objetivo:
@@ -16,6 +16,12 @@ Funcionalidades:
 Carrinho de compras para adicionar e remover produtos.
 Cálculo do valor total da compra.
 
-
 Tecnologias Utilizadas:
 Neste projeto, trabalhei com as seguintes tecnologias: HTML, CSS, JavaScript e Bootstrap.
+
+Agradecimentos
+Agradeço ao professor Orion Telles que ministrou a disciplina com paciência e noção das possíveis limitações de cada aluno e contribuiu para meu aprendizado e desenvolvimento durante a disciplina de Práticas de Programação.
+
+
+Autora
+Gabriele Pereira - @gaburieresp
