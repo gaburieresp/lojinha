@@ -17,9 +17,9 @@ Cálculo do valor total da compra.
 Tecnologias Utilizadas:
 Neste projeto, trabalhei com as seguintes tecnologias: HTML, CSS, JavaScript e Bootstrap.
 
-Agradecimentos
+Agradecimentos:
 Agradeço ao professor Orion Telles que ministrou a disciplina com paciência e noção das possíveis limitações de cada aluno e contribuiu para meu aprendizado e desenvolvimento durante a disciplina de Práticas de Programação.
 
 
-Autora
+Autora:
 Gabriele Pereira - @gaburieresp
